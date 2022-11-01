@@ -561,8 +561,13 @@ footer .foot_sec .left_foot{
         color: var(--blue-dark);
     }
 
-    .btn_tell {
+    /* .btn_tell {
         font-size: 0.7rem;
+    } */
+    .btn_sec{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
     .services p{
         /* padding: 0.1rem; */
@@ -598,10 +603,15 @@ footer .foot_sec .left_foot{
         display: none;
     }
 }
-@media (max-width:400px) {
+@media (max-width:410px) {
     
-    .btn_tell{
+    /* .btn_tell{
         font-size: 0.6rem;
+    } */
+    .btn_sec{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
 
